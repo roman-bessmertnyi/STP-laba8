@@ -1,4 +1,4 @@
-package RepListis;
+package replists;
 
 import lombok.Getter;
 import lombok.Setter;

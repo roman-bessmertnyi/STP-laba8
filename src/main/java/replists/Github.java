@@ -1,4 +1,4 @@
-package RepListis;
+package replists;
 
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -14,7 +14,7 @@ public class Github {
     private ArrayList<Repository> mostStarredRepositories;
     private ArrayList<Repository> mostCommittedRepositories;
     private JsonParser parser;
-    private final String TOKEN = "9129bb1665168c2dbb12a04c6a2074efb181c630";
+    private final String TOKEN = "7c5f6c77ab56f17d00b31c6feaf7fe1fee4602b8";
 
     public Github() {
         httpclient = HttpClients.createDefault();
